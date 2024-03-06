@@ -33,7 +33,7 @@ basic.forever(function () {
     } else {
         radio.sendString("A")
         while (rt != 1) {
-            basic.pause(10)
+            basic.pause(1)
         }
         rt = 0
     }
